@@ -1,4 +1,9 @@
-import { Controller, Get } from '@nestjs/common';
+import { Controller, 
+        Get,
+        Post,
+        Put,
+        Patch,
+        Delete } from '@nestjs/common';
 
 @Controller('customers')
 export class CustomerController {
@@ -9,6 +14,10 @@ export class CustomerController {
     //proyecto
     //se programa con una funcion 
     //con sintaxis del lenguaje de programación
+    @Post()
+    crearCustomer(){
+        return"aqui se va a crear un customers"
+    }
     @Get()
     consultarCustomers(){
         return"retromamos los customers"
