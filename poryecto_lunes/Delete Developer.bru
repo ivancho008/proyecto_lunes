@@ -1,0 +1,15 @@
+meta {
+  name: Delete Developer
+  type: http
+  seq: 5
+}
+
+delete {
+  url: http://localhost:3010/developers/1
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

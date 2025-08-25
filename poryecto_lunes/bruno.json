@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "poryecto_lunes",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

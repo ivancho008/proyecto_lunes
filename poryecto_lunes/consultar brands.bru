@@ -1,0 +1,15 @@
+meta {
+  name: consultar brands
+  type: http
+  seq: 6
+}
+
+get {
+  url: http://localhost:3010/brands
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
